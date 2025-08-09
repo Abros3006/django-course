@@ -94,7 +94,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-white">Limited Time Registration</h3>
-                  <p className="text-red-300">Course registration closes on <span className="font-bold text-yellow-400">August 22nd, 2024</span></p>
+                  <p className="text-red-300">Course registration closes on <span className="font-bold text-yellow-400">August 22nd, 2025</span></p>
                 </div>
               </div>
               <div className="text-center md:text-left">
@@ -268,6 +268,17 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="bg-black/80 border-t border-yellow-400/20 py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <p className="text-gray-400 text-sm">
+              © 2025 ClickSkills. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
