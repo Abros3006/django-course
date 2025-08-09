@@ -26,7 +26,6 @@ export default function DeploymentPaymentIntegrationPage() {
               "Prepare project for production deployment",
               "Deploy application on Render platform",
               "Configure production environment",
-              "Test complete e-commerce functionality",
               "Launch the final e-commerce website",
               "Complete the Django course successfully"
             ]
@@ -50,7 +49,6 @@ export default function DeploymentPaymentIntegrationPage() {
               "Payment gateway integration",
               "Order confirmation and receipts",
               "Payment status tracking",
-              "Refund processing",
               "Payment analytics and reporting",
               "Webhook integration for real-time updates"
             ]
@@ -85,11 +83,9 @@ export default function DeploymentPaymentIntegrationPage() {
             items: [
               "Create GitHub account and repository",
               "Initialize Git repository locally",
-              "Configure Git settings and credentials",
               "Create .gitignore file for Django",
               "Add and commit project files",
               "Push code to GitHub repository",
-              "Set up branch protection rules",
               "Configure repository settings"
             ]
           },
@@ -102,9 +98,6 @@ export default function DeploymentPaymentIntegrationPage() {
               "Environment variables template",
               "Deployment instructions",
               "Project structure and setup guide",
-              "Contributing guidelines",
-              "License information",
-              "Changelog and version history"
             ]
           }
         ]
@@ -123,26 +116,16 @@ export default function DeploymentPaymentIntegrationPage() {
             items: [
               "Environment variables and secrets management",
               "Database configuration for production",
-              "Static files and media handling",
-              "Security settings and HTTPS",
-              "Performance optimization and caching",
-              "Logging and monitoring setup",
-              "Backup and recovery procedures",
-              "Error handling and debugging"
+              "Static files and media handling"
             ]
           },
           {
             type: "list",
             title: "Security Measures",
             items: [
-              "HTTPS and SSL certificate configuration",
               "CSRF protection and security headers",
               "Database security and access control",
-              "API key and secret management",
-              "User authentication and authorization",
-              "Data encryption and privacy",
-              "Regular security updates and patches",
-              "Security monitoring and alerts"
+              "User authentication and authorization"
             ]
           }
         ]
@@ -166,7 +149,6 @@ export default function DeploymentPaymentIntegrationPage() {
               "Environment variable management",
               "Automatic deployments from GitHub",
               "Monitoring and logging",
-              "Cost-effective pricing plans"
             ]
           },
           {
@@ -181,44 +163,6 @@ export default function DeploymentPaymentIntegrationPage() {
               "Deploy application to Render",
               "Configure custom domain and SSL",
               "Test deployed application"
-            ]
-          }
-        ]
-      },
-      {
-        id: "testing-validation",
-        title: "Testing & Validation",
-        content: [
-          {
-            type: "text",
-            content: "Thorough testing ensures that your deployed application works correctly and provides a good user experience. We'll test all aspects of the e-commerce platform."
-          },
-          {
-            type: "list",
-            title: "Testing Strategy",
-            items: [
-              "Functional testing of all features",
-              "Payment processing and integration testing",
-              "User registration and authentication testing",
-              "Product management and catalog testing",
-              "Shopping cart and checkout testing",
-              "Order processing and management testing",
-              "Admin panel and management testing",
-              "Performance and load testing"
-            ]
-          },
-          {
-            type: "list",
-            title: "Validation Checklist",
-            items: [
-              "User registration and login functionality",
-              "Product browsing and search features",
-              "Shopping cart and checkout process",
-              "Payment processing and confirmation",
-              "Order management and tracking",
-              "Admin panel and product management",
-              "Email notifications and confirmations",
-              "Mobile responsiveness and usability"
             ]
           }
         ]
@@ -256,8 +200,6 @@ export default function DeploymentPaymentIntegrationPage() {
               "Payment processing and integration",
               "Order management and tracking",
               "Admin panel and management",
-              "Search, filtering, and reviews",
-              "Email notifications and communication",
               "Production deployment and monitoring"
             ]
           }

@@ -100,8 +100,7 @@ export default function ModulesPage() {
         "Registration Page & User Onboarding",
         "OAuth Integration & Social Login",
         "User Profiles & Account Management",
-        "Security Implementation & Best Practices",
-        "Deployment Preparation & Production Setup"
+        "Security Implementation & Best Practices"
       ],
       status: "available",
       link: "/modules/ecommerce-project-setup"
@@ -119,13 +118,7 @@ export default function ModulesPage() {
         "Checkout & Payment System",
         "Order Management System",
         "Admin Panel & Management",
-        "User Accounts & Profiles",
-        "Search & Filtering System",
-        "Reviews & Ratings System",
-        "Inventory Management",
-        "Email Notifications & Communication",
-        "Performance Optimization & Scalability",
-        "Testing & Deployment"
+        "User Accounts & Profiles"
       ],
       status: "available",
       link: "/modules/ecommerce-features-implementation"
