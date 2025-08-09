@@ -1,8 +1,9 @@
 'use client';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function EcommerceProjectSetupPage() {
   const moduleContent = {
@@ -515,11 +516,13 @@ export default function EcommerceProjectSetupPage() {
       <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-yellow-400/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-2">
-              <FontAwesomeIcon icon={faBook} className="text-yellow-400 text-2xl" />
-              <span className="text-xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
-                Django Course
-              </span>
+          <div className="flex items-center space-x-2">
+              <Image
+                src="/images/logo.png"
+                alt="Company Logo"
+                width={150}
+                height={100}
+              />
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <Link href="/" className="text-white hover:text-yellow-400 transition-colors duration-300">Home</Link>
