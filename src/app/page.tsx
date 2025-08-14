@@ -230,6 +230,152 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Course Schedule Section */}
+      <section className="py-20 bg-gradient-to-br from-black to-gray-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
+                Course Schedule
+              </span>
+            </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Join us for 7 comprehensive sessions spread across August and September 2025. 
+              Each session is designed to build upon the previous one, ensuring complete mastery of Django.
+            </p>
+          </div>
+
+          <div className="overflow-x-auto">
+            <div className="min-w-full bg-black/50 backdrop-blur-sm border border-yellow-400/20 rounded-xl overflow-hidden">
+              <table className="w-full">
+                <thead>
+                  <tr className="bg-yellow-400/20">
+                    <th className="p-4 font-bold text-yellow-400 border-b border-yellow-400/20 text-center">Session No.</th>
+                    <th className="p-4 font-bold text-yellow-400 border-b border-yellow-400/20 text-center">Date</th>
+                    <th className="p-4 font-bold text-yellow-400 border-b border-yellow-400/20 text-center">Day</th>
+                    <th className="p-4 font-bold text-yellow-400 border-b border-yellow-400/20 text-center">Time</th>
+                    <th className="p-4 font-bold text-yellow-400 border-b border-yellow-400/20 text-center">Module Title</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">1</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">22 Aug 2025</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">Friday</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">8:00–10:00 PM</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">
+                      <Link href="/modules/introduction-to-django" className="text-yellow-400 hover:text-yellow-300 transition-colors duration-300 font-medium">
+                        Introduction to Django
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">2</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">23 Aug 2025</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">Saturday</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">6:00–8:00 PM</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">
+                      <Link href="/modules/routing-views-templates" className="text-yellow-400 hover:text-yellow-300 transition-colors duration-300 font-medium">
+                        Routing, Views & Templates
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">3</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">29 Aug 2025</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">Friday</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">8:00–10:00 PM</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">
+                      <Link href="/modules/models-migrations-database" className="text-yellow-400 hover:text-yellow-300 transition-colors duration-300 font-medium">
+                        Models, Migrations & Database
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">4</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">30 Aug 2025</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">Saturday</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">6:00–8:00 PM</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">
+                      <Link href="/modules/forms-crud-validation" className="text-yellow-400 hover:text-yellow-300 transition-colors duration-300 font-medium">
+                        Forms, CRUD & Validation
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">5</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">6 Sep 2025</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">Saturday</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">6:00–8:00 PM</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">
+                      <Link href="/modules/ecommerce-project-setup" className="text-yellow-400 hover:text-yellow-300 transition-colors duration-300 font-medium">
+                        E-commerce Project Setup
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 text-center text-gray-400 border-b border-yellow-400/10">—</td>
+                    <td className="p-4 text-center text-gray-400 border-b border-yellow-400/10">5 Sep 2025</td>
+                    <td className="p-4 text-center text-gray-400 border-b border-yellow-400/10">Friday</td>
+                    <td className="p-4 text-center text-gray-400 border-b border-yellow-400/10">—</td>
+                    <td className="p-4 text-center text-gray-400 border-b border-yellow-400/10 italic">
+                      Ganesh Visarjan
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">6</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">12 Sep 2025</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">Friday</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">8:00–10:00 PM</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">
+                      <Link href="/modules/ecommerce-features-implementation" className="text-yellow-400 hover:text-yellow-300 transition-colors duration-300 font-medium">
+                        E-commerce Features Implementation
+                      </Link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="p-4 text-center text-white">7</td>
+                    <td className="p-4 text-center text-white">13 Sep 2025</td>
+                    <td className="p-4 text-center text-white">Saturday</td>
+                    <td className="p-4 text-center text-white">6:00–8:00 PM</td>
+                    <td className="p-4 text-center text-white">
+                      <Link href="/modules/deployment-payment-integration" className="text-yellow-400 hover:text-yellow-300 transition-colors duration-300 font-medium">
+                        Deployment & Payment Integration
+                      </Link>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* Schedule Highlights */}
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-black/30 backdrop-blur-sm border border-yellow-400/20 rounded-xl p-6 text-center">
+              <div className="text-yellow-400 text-2xl mb-3">
+                <FontAwesomeIcon icon={faClock} />
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2">7 Sessions</h3>
+              <p className="text-gray-400 text-sm">Comprehensive coverage across 2 months</p>
+            </div>
+            <div className="bg-black/30 backdrop-blur-sm border border-yellow-400/20 rounded-xl p-6 text-center">
+              <div className="text-yellow-400 text-2xl mb-3">
+                <FontAwesomeIcon icon={faUsers} />
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2">Live Sessions</h3>
+              <p className="text-gray-400 text-sm">Interactive learning with real-time doubt clearing</p>
+            </div>
+            <div className="bg-black/30 backdrop-blur-sm border border-yellow-400/20 rounded-xl p-6 text-center">
+              <div className="text-yellow-400 text-2xl mb-3">
+                <FontAwesomeIcon icon={faRocket} />
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2">Project-Based</h3>
+              <p className="text-gray-400 text-sm">Build a complete e-commerce website</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
