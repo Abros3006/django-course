@@ -260,7 +260,7 @@ export default function Home() {
                 <tbody>
                   <tr>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">1</td>
-                    <td className="p-4 text-center text-white border-b border-yellow-400/10">22 Aug 2025</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">29 Aug 2025</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">Friday</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">8:00–10:00 PM</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">
@@ -271,7 +271,7 @@ export default function Home() {
                   </tr>
                   <tr>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">2</td>
-                    <td className="p-4 text-center text-white border-b border-yellow-400/10">23 Aug 2025</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">30 Aug 2025</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">Saturday</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">6:00–8:00 PM</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">
@@ -282,7 +282,7 @@ export default function Home() {
                   </tr>
                   <tr>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">3</td>
-                    <td className="p-4 text-center text-white border-b border-yellow-400/10">29 Aug 2025</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">12 Sept 2025</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">Friday</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">8:00–10:00 PM</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">
@@ -293,7 +293,7 @@ export default function Home() {
                   </tr>
                   <tr>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">4</td>
-                    <td className="p-4 text-center text-white border-b border-yellow-400/10">30 Aug 2025</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">13 Sept 2025</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">Saturday</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">6:00–8:00 PM</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">
@@ -304,7 +304,7 @@ export default function Home() {
                   </tr>
                   <tr>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">5</td>
-                    <td className="p-4 text-center text-white border-b border-yellow-400/10">6 Sep 2025</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">19 Sep 2025</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">Saturday</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">6:00–8:00 PM</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">
@@ -314,17 +314,8 @@ export default function Home() {
                     </td>
                   </tr>
                   <tr>
-                    <td className="p-4 text-center text-gray-400 border-b border-yellow-400/10">—</td>
-                    <td className="p-4 text-center text-gray-400 border-b border-yellow-400/10">5 Sep 2025</td>
-                    <td className="p-4 text-center text-gray-400 border-b border-yellow-400/10">Friday</td>
-                    <td className="p-4 text-center text-gray-400 border-b border-yellow-400/10">—</td>
-                    <td className="p-4 text-center text-gray-400 border-b border-yellow-400/10 italic">
-                      Ganesh Visarjan
-                    </td>
-                  </tr>
-                  <tr>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">6</td>
-                    <td className="p-4 text-center text-white border-b border-yellow-400/10">12 Sep 2025</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">20 Sep 2025</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">Friday</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">8:00–10:00 PM</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">
@@ -335,7 +326,7 @@ export default function Home() {
                   </tr>
                   <tr>
                     <td className="p-4 text-center text-white">7</td>
-                    <td className="p-4 text-center text-white">13 Sep 2025</td>
+                    <td className="p-4 text-center text-white">26 Sep 2025</td>
                     <td className="p-4 text-center text-white">Saturday</td>
                     <td className="p-4 text-center text-white">6:00–8:00 PM</td>
                     <td className="p-4 text-center text-white">
