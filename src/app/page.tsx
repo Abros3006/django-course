@@ -305,7 +305,7 @@ export default function Home() {
                   <tr>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">5</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">19 Sep 2025</td>
-                    <td className="p-4 text-center text-white border-b border-yellow-400/10">Saturday</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">Friday</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">6:00–8:00 PM</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">
                       <Link href="/modules/ecommerce-project-setup" className="text-yellow-400 hover:text-yellow-300 transition-colors duration-300 font-medium">
@@ -316,7 +316,7 @@ export default function Home() {
                   <tr>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">6</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">20 Sep 2025</td>
-                    <td className="p-4 text-center text-white border-b border-yellow-400/10">Friday</td>
+                    <td className="p-4 text-center text-white border-b border-yellow-400/10">Saturday</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">8:00–10:00 PM</td>
                     <td className="p-4 text-center text-white border-b border-yellow-400/10">
                       <Link href="/modules/ecommerce-features-implementation" className="text-yellow-400 hover:text-yellow-300 transition-colors duration-300 font-medium">
@@ -327,8 +327,8 @@ export default function Home() {
                   <tr>
                     <td className="p-4 text-center text-white">7</td>
                     <td className="p-4 text-center text-white">26 Sep 2025</td>
-                    <td className="p-4 text-center text-white">Saturday</td>
-                    <td className="p-4 text-center text-white">6:00–8:00 PM</td>
+                    <td className="p-4 text-center text-white">Friday</td>
+                    <td className="p-4 text-center text-white">8:00–10:00 PM</td>
                     <td className="p-4 text-center text-white">
                       <Link href="/modules/deployment-payment-integration" className="text-yellow-400 hover:text-yellow-300 transition-colors duration-300 font-medium">
                         Deployment & Payment Integration
