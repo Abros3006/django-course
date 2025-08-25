@@ -94,7 +94,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-white">Limited Time Registration</h3>
-                  <p className="text-red-300">Course registration closes on <span className="font-bold text-yellow-400">August 22nd, 2025</span></p>
+                  <p className="text-red-300">Course registration closes on <span className="font-bold text-yellow-400">August 29th, 2025</span></p>
                 </div>
               </div>
               <div className="text-center md:text-left">
